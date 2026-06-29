@@ -26,6 +26,9 @@ hackathon/
 ```
 
 ---
+## Architecture
+
+![Architecture](assets/architecture.png)
 
 ## Prerequisites
 
