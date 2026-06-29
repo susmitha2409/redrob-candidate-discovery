@@ -4,6 +4,7 @@
 A hybrid AI ranking system that finds the top 100 most relevant candidates from 100,000 profiles for a Senior AI Engineer role.
 
 ---
+![Architecture](assets/architecture.png)
 
 ## Project Structure
 
