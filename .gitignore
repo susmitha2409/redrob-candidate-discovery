@@ -1,0 +1,18 @@
+# Ignore the large dataset only
+**/candidates.jsonl
+
+# Generated data
+data/
+
+# FAISS and BM25 indexes
+*.faiss
+*.pkl
+
+# Environment
+.env
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
