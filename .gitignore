@@ -1,8 +1,14 @@
 # Ignore the large dataset only
 **/candidates.jsonl
+candidates.jsonl
 
-# Generated data
-data/
+# Generated data — block everything except ranked_results.json
+data/raw_data/
+data/indices/
+data/processed/candidates_processed.json
+data/processed/ontology_enhanced.json
+!data/processed/
+!data/processed/ranked_results.json
 
 # FAISS and BM25 indexes
 *.faiss
@@ -16,5 +22,7 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
+
+# Dataset folder
 [PUB] India_runs_data_and_ai_challenge/
-candidates.jsonl
+deploy_temp/
